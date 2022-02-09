@@ -36,9 +36,9 @@ export default function Header() {
 
     return (
         <div class="theme-main-menu sticky-menu theme-menu-three">
-            <div class="d-flex align-items-center justify-content-center">
+            <div  class="d-flex align-items-center justify-content-center">
                 <div class="logo">
-                    <a style={{ cursor: "pointer" }} onClick={handleBackHome}>
+                    <a style={{ cursor: "pointer",marginBottom:"5px" }} onClick={handleBackHome}>
                         <img style={{ height: "3em" }} src="assets/img/logo.png" alt="taskmo-logo" />
 
                     </a></div>
@@ -49,17 +49,17 @@ export default function Header() {
                             <i class="flaticon-menu-of-three-lines"></i>
                         </button>
                         <div class="navbar-collapse collapse" id="navbarSupportedContent">
-                            <div class="d-lg-flex justify-content-between align-items-center">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item dropdown position-static active">
+                            <div class="font-montserrat d-lg-flex justify-content-between align-items-center">
+                                <ul class="fw-500 font-montserrat navbar-nav">
+                                    <li class=" nav-item dropdown position-static active">
                                         <a style={{ cursor: "pointer", color: "black" }} onClick={() => history.push('/')} class="nav-link ">Home</a>
                                     </li>
                                     <li class="nav-item dropdown position-static active">
-                                        <a style={{ cursor: "pointer", color: "black" }} onClick={() => history.push('/about')} class="nav-link " >About</a>
+                                        <a style={{ cursor: "pointer", color: "black"}} onClick={() => history.push('/about')} class="nav-link " >About</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" style={{ cursor: "pointer", color: "black" }}>Services</a>
-                                        <ul class="dropdown-menu">
+                                    <li  class="nav-item dropdown">
+                                        <a class="nav-link" onClick={() => history.push('/services')} style={{ cursor: "pointer", color: "black" }}>Services</a>
+                                        {/* <ul class="dropdown-menu">
                                             <li><a href="merchant-onboarding" class="dropdown-item">Merchant Onboarding</a></li>
                                             <li><a href="background-verification" class="dropdown-item">Background Verification</a></li>
                                             <li><a href="tele-sales" class="dropdown-item">Tele Sales</a></li>
@@ -75,7 +75,7 @@ export default function Header() {
                                             <li><a href="warehouse-service" class="dropdown-item">Warehouse Service</a></li>
                                             <li><a href="content-moderation" class="dropdown-item">Content Moderation</a></li>
                                             <li><a href="phlebotomy-services" class="dropdown-item">Phlebotomy Services</a></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li class="nav-item dropdown position-static active">
                                         <a style={{ cursor: "pointer", color: "black" }} onClick={handleBackBlog} class="nav-link ">Blog</a>
@@ -92,13 +92,13 @@ export default function Header() {
                                 <ul class="right-widget user-login-button d-flex align-items-center justify-content-center">
                                     <li>
                                         <a style={{ borderRadius: "10px"}} href="#" class="signUp-action d-flex align-items-center">
-                                            <span>Find Jobs</span>
+                                            <span class=" fw-500 fs-18 ">Find Jobs</span>
                                             <img src="images/icon/53.svg" alt="" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a style={{ borderRadius: "10px"}} href="#" class="signUp-action d-flex align-items-center">
-                                            <span>Hire Taskers</span>
+                                        <a style={{ borderRadius: "10px"}} href="#" class=" fw-500 fs-18 signUp-action d-flex align-items-center">
+                                            <span class=" fw-500 fs-18 ">Hire Taskers</span>
                                             <img src="images/icon/53.svg" alt="" />
                                         </a>
                                     </li>

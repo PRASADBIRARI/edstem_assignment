@@ -93,10 +93,13 @@
 /**
 * Importing necessary  Styles.
 **/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap');
 @import url('../fonts/gilroy/fonts.css');
 @import url('../fonts/gordita/stylesheet.css');
-@import url('../fonts/recoleta/stylesheet.css');
+@import url('../fonts/recoleta/stylesheet.css'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
 /*------- Framework css -----------*/
@@ -304,7 +307,8 @@ body {
   font-family: 'gilroy-light';
   font-family: 'gilroy-ultralight';
         */
-  font-family: 'Roboto', sans-serif;
+  
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 18px;
   position: relative;
@@ -320,7 +324,7 @@ body {
 .h4,h4 {font-size: 22px;}
 .h5,h5 {font-size: 20px;}
 .h6,h6 {font-size: 15px;}
-.font-rubik {font-family: 'Rubik', sans-serif !important;}
+.font-montserrat {font-family:'Montserrat', sans-serif !important;}
 .font-gilroy-bold {font-family: 'gilroy-bold' !important;}
 .font-slab {font-family: 'Roboto Slab', serif !important;}
 .font-gordita {font-family: 'gordita' !important;}
@@ -1572,15 +1576,15 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 .useable-tools-section h6 {
   font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
   padding-bottom: 15px;
+  font-weight: 600;
   color: #fff;
 }
 .useable-tools-section.bg-transparent h6 {color: rgba(0,0,0,0.3);}
 .useable-tools-section.bg-transparent h2 {color: #2A2A2A; margin: 0;}
 .useable-tools-section h2 {
-  font-family: 'gilroy-black';
-  font-size: 58px;
+  font-family: 'montserrat';
+  font-size: 50px;
   line-height: 1.20em;
   color: #fff;
   margin: 20px 0 120px;
@@ -3504,14 +3508,14 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 .client-feedback-slider-one .shapes-holder .cp-img-one {
   width: 60px;
   height: 60px;
-  background-color: #FDE5FF;
+  background-color: #FFF3F3;
   top:13%;
   left: 26%;
 }
 .client-feedback-slider-one .shapes-holder .cp-img-two {
   width: 75px;
   height: 75px;
-  background-color: #FDE5FF;
+  background-color: #E7FFFD;
   top:46%;
   left: 13%;
 }
@@ -3629,7 +3633,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 /*----------------- Footer Style Two --------------*/
 .theme-footer-two {position: relative; overflow: hidden;}
 .theme-footer-two:before {
-  content: url(../images/shape/44.svg);
+  /* content: url(../images/shape/44.svg); */
   position: absolute;
   bottom: -10px;
   left: 11%;
@@ -4268,7 +4272,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 .pricing-nav-one {margin: 40px 0 20px; border:none;}
 .pricing-nav-one .nav-item {margin: 0;}
 .pricing-nav-one .nav-item .nav-link {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 50px;
   border: 2px solid var(--blue-dark);
   padding: 0 15px;
@@ -4474,7 +4478,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
   padding-bottom: 25px;
 }
 .fancy-hero-four h2 {
-  font-family: 'gilroy-black'; 
+  font-family: 'Montserrat', sans-serif; 
   font-size: 80px;
   line-height: 1.1em;
 }
@@ -4768,7 +4772,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
   font-family: 'Rubik', sans-serif;
 }
 .form-style-classic .input-group-meta label {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   color: #BFBFBF;
   position: absolute;
@@ -5390,7 +5394,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 .theme-menu-three .navbar {position: static;}
 .theme-menu-three .user-login-button li a {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 46px;
   color: #000;
   transition: all 0.3s ease-in-out;
@@ -5426,7 +5430,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
   z-index: -1;
 }
 .hero-banner-three h1 {
-  font-size: 100px;
+  font-size: 68px;
   line-height: 1.05em;
   text-align: center;
 }
@@ -6310,7 +6314,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 .theme-main-menu.sticky-menu.fixed.theme-menu-four {background: #FBF3EC;}
 .theme-menu-four .logo img {max-width: 120px;}
 .theme-menu-four .navbar-nav .nav-item .nav-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   margin: 0 24px;
 }
@@ -7393,11 +7397,12 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 .fancy-feature-eleven .shape-one {top: 3%; left: 7%;}
 .fancy-feature-eleven .shape-two {bottom: -60px; left: 37%; z-index: 1;}
 .block-style-sixteen {
-  margin-top: 120px;
+  margin: 70px auto 10px;
   position: relative;
   border-radius: 40px;
   padding: 125px 0 120px;
   overflow: hidden;
+  width: 90%;
 }
 .block-style-sixteen .icon {
   width: 68px;
@@ -7420,6 +7425,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
   right: 70px;
   width: 48%;
   top: 50%;
+  margin: 10px;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -7427,11 +7433,14 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
   left: 10px;
   width: 48%;
   bottom: 0;
+  margin-left: 50px;
+
   z-index: 1;
 }
 .block-style-sixteen .screen-three {
   right: 0;
-  width: 48%;
+  width: 40%;
+  margin-right: 50px;
   bottom: 0;
   z-index: 1;
 }
@@ -8630,7 +8639,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
   margin: -5px 0 0 0;
 }
 .theme-menu-five .right-widget .download-btn.style-two .dropdown-menu {
-  margin: margin: -2px 0 0 0;
+  margin: -2px 0 0 0;
   background: #fff;
   border: 2px solid #000;
 }
@@ -9402,7 +9411,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 .fancy-feature-eighteen .tab-content .text-wrapper {padding: 40px 80px;}
 .fancy-feature-eighteen .tab-content .text-wrapper h4 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 600;
   padding-bottom: 40px;
 }
 .fancy-feature-eighteen .tab-content .text-wrapper p {
@@ -9760,7 +9769,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 /*---------------------Theme Hero Banner/Nine ---------------*/
 .hero-banner-nine {position: relative; z-index: 1; padding-top: 270px;}
 .hero-banner-nine .hero-heading {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 72px;
   line-height: 1.25em;
 }
@@ -10899,7 +10908,7 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
 }
 .block-style-twentySix h4 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.5em;
   margin-bottom: 35px;
 }
@@ -12025,3 +12034,69 @@ body .theme-btn-thirteen:hover {background: #FF006B;}
   transition: all 0.3s ease-in-out;
 }
 .service-details-one .sidebar .social-icon li a:hover {color: #000;}
+
+.fw-300{
+  font-weight: 300;
+} 
+
+.fw-400{
+  font-weight: 400;
+} 
+
+.fw-500{
+  font-weight: 500;
+} 
+.fw-600{
+  font-weight: 600;
+} 
+.fw-700{
+  font-weight: 700;
+} 
+.fw-800{
+  font-weight: 800;
+} 
+.fw-900{
+  font-weight: 900;
+} 
+
+
+.fs-16{
+  font-size: 16px;
+}
+.fs-18{
+  font-size: 18px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-22{
+  font-size: 22px;
+}
+
+.fs-30{
+  font-size: 30px;
+}
+.fs-40{
+  font-size: 40px;
+}
+.fs-50{
+  font-size: 50px;
+}
+
+.fs-60{
+  font-size: 60px;
+}
+
+.fs-70{
+  font-size: 70px;
+}
+
+.cl-white{
+  color: white;
+}
+
+.background_img{
+  background-image: url(images/assets/hero_banner_copy.jpg);
+}

@@ -1,11 +1,20 @@
 import React from 'react'
 import { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 export default function Blog() {
 
     useEffect(() => {
         window.scrollTo(0, 0)
+        AOS.init({
+            duration: 2000
+        });
     }, [])
+
+
+    
     return (
         <div>
             {/* <section class="blog-area section-gap">
@@ -144,6 +153,9 @@ export default function Blog() {
                     </div>
                 </div>
             </section> */}
+
+
+
             <div style={{ marginTop: "50px" }} class="blog-page-white-bg blog-v3">
                 <div class="container">
                     <div class="row">
@@ -231,7 +243,7 @@ export default function Blog() {
                                 <div class="sidebar-categories mb-85">
                                     <h4 class="sidebar-title">Categories</h4>
                                     <ul>
-                                    <li><a href="#">BTL Marketing</a></li>
+                                        <li><a href="#">BTL Marketing</a></li>
                                         <li><a href="#">Customer Acquisition</a></li>
                                         <li><a href="#"> Sampling & Merchandising</a></li>
                                         <li><a href="#">Customer Service</a></li>
@@ -280,7 +292,7 @@ export default function Blog() {
                 </div>
             </div>
 
-            <div class="fancy-short-banner-three mt-200 md-mt-150">
+            {/* <div class="fancy-short-banner-three mt-200 md-mt-150">
                 <div class="container">
                     <div class="bg-wrapper">
                         <div class="row align-items-center">
@@ -302,7 +314,11 @@ export default function Blog() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+
+
+
+
         </div>
     )
 }

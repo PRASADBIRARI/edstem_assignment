@@ -2422,7 +2422,7 @@ li:hover > .submenu11 {
 
 .portfolio-info-box ul li span {
 	display: block;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 1.8;
 }
 
@@ -2453,7 +2453,7 @@ li:hover > .submenu11 {
 /*======= Consultation Form =======*/
 .consultation-form {
 	background-color: var(--color-white);
-	padding: 70px 55px;
+	padding: 30px 55px;
 	border-radius: 12px;
 	position: relative;
 	z-index: 1;
@@ -2482,6 +2482,11 @@ li:hover > .submenu11 {
 	margin-bottom: 15px;
 }
 
+.textarea{
+	background-color: #f0f4ff;
+	height: 85px;
+
+}
 .consultation-form input,
 .consultation-form select,
 .consultation-form .nice-select {

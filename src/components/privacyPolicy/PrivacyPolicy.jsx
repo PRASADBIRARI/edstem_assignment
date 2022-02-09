@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
         window.scrollTo(0, 0)
     }, [])
     return (
-        <div style={{margin:"100px 30px",padding:"20px" ,border:"1px solid gainsboro", borderRadius:"5px"}}>
+        <div style={{margin:"150px 30px",padding:"20px" ,border:"1px solid gainsboro", borderRadius:"5px"}}>
 
 
             <p style={{textAlign:"center"}}><strong>TERMS OF SERVICE</strong></p>

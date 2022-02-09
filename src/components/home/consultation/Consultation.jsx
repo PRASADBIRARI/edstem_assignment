@@ -52,19 +52,19 @@ export default function Consultation() {
     }
 
     return (
-        // <div style={{border:"2px solid red"}} class="leftAlign" id="class111">
+        // <div class="leftAlign" id="class111">
             <section id="section5" class="consultation-section section-polygon-bg section-gap bg-color-primary">
-                <div class="container">
+                <div class="font-montserrat container">
                     <div class="row justify-content-center">
                         <div class="col-xl-10">
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-lg-6 col-md-9">
                                     <div class="consultation-text text-white pr-xl-5">
                                         <div class="section-heading heading-white mb-30">
-                                            <h2 class="title">Leverage Your Business With Us!</h2>
-                                            <span class="tagline">One Stop Solution For Your Business</span>
+                                            <span class="fw-600 fs-16 font-montserrat">One Stop Solution For Your Business</span>
+                                            <h2 class="font-montserrat fs-50 fw-600 cl-white">Leverage Your Business With Us!</h2>
                                         </div>
-                                        <p>
+                                        <p class="fs-18">
                                             At Taskmo, we work with businesses and enterprises of all sizes by offering services across multiple industries. We help you scale up your business efficiently through our distributed gig workers across the country                                        </p>
                                         <div class="counter-items row">
                                             <div class="col-lg-6">
@@ -73,7 +73,7 @@ export default function Consultation() {
                                                         <span class="counter">950</span>
                                                         s                                          <span class="suffix">+</span>
                                                     </div>
-                                                    <h6 class="title">Customer Satisfaction</h6>
+                                                    <h6  style={{fontSize:"18px"}} class="title font-montserrat">Customer Satisfaction</h6>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -82,7 +82,7 @@ export default function Consultation() {
                                                         <span class="counter">12500</span>
                                                         <span class="suffix">+</span>
                                                     </div>
-                                                    <h6 class="title">Working Hours</h6>
+                                                    <h6 style={{fontSize:"18px"}} class="title font-montserrat">Working Hours</h6>
                                                 </div>
                                             </div>
                                         </div>

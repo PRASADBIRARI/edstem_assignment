@@ -12,8 +12,8 @@ export default function OurPartners() {
                 <div class="bubble-four"></div>
                 <div class="bubble-five"></div>
                 <div class="container">
-                    <h6  style={{color:"black"}} class="font-rubik">Our Clients</h6>
-					<h2 style={{color:"black"}} >Our clients range from startups to Fortune 500, listed are just a few !.</h2>
+                    <h6 style={{color:"black"}} class="font-montserrat">Our Clients</h6>
+					<h2 style={{color:"black"}}  class="fw-600">Our clients range from startups to Fortune 500, listed are just a few !.</h2>
 
                     <div class="row justify-content-center">
                         <div class="col-lg-3 col-md-4 col-6" data-aos={"fade-up"} data-aos-duration="1200">

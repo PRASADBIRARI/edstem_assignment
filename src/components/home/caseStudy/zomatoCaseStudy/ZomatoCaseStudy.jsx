@@ -1,4 +1,3 @@
-import { textAlign } from '@mui/system'
 import React from 'react'
 import { useEffect } from 'react'
 
@@ -18,41 +17,34 @@ export default function ZomatoCaseStudy() {
                     <div class="row">
                         <div class="col-12 order-first">
                             <div class="portfolio-thumb">
-                                <img src="assets/img/portfolio/portfolio-details.jpg" alt="Image" />
+                            <img src="assets/case-study/zomato.png" alt="Image" />
                             </div>
                         </div>
                         <div class="col-lg-4 order-lg-last">
                             <div class="portfolio-info-box wow fadeInUp">
-                                <h4 class="box-title">Project Info</h4>
+                                <h4 class="font-montserrat fw-700">Project Info</h4>
                                 <ul>
                                     <li>
-                                        <span class="info-title">Clients</span>
-                                        <span class="info">Zomato</span>
+                                        <span class="font-montserrat fw-600">Clients</span>
+                                        <span class="font-montserrat fw-500">Zomato</span>
                                     </li>
                                     <li>
-                                        <span class="info-title">Project Category</span>
-                                        <span class="info">User Acquisition</span>
+                                        <span class="font-montserrat fw-600">Project Category</span>
+                                        <span class="font-montserrat fw-500">User Acquisition</span>
                                     </li>
-                                    <li>
-                                        <span class="info-title">Location</span>
-                                        <span class="info">55 Main Street, New York</span>
-                                    </li>
-                                    <li>
-                                        <span class="info-title">Project Date</span>
-                                        <span class="info">25 September 2021</span>
-                                    </li>
+                                
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-8">
                             <div class="portfolio-details-content wow fadeInUp">
-                                <h2 class="portfolio-title">Zomato - User Acquisition</h2>
-                                <h3 class="sub-title">Challenge</h3>
-                                <p class="mb-30">
+                                <h2 class="font-montserrat fs-50 fw-600">Zomato - User Acquisition</h2>
+                                <h3 class="font-montserrat fw-600 mt-50">Challenge</h3>
+                                <p class="mb-30 fs-18">
                                 Zomato wanted to verify & validate if the aggregated restaurants in a particular region were still functioning post-pandemic. Zomato did not have access to the resources to verify the existing set of restaurant partners within a short deadline of a few months.
                                 </p>
-                                <h3 class="sub-title">Solution</h3>
-                                <p class="mb-30">
+                                <h3 class="font-montserrat fw-600 sub-title">Solution</h3>
+                                <p class="mb-30 fs-18">
                                 Taskmo's data collection executives worked in over 10+ cities and covered over 10,000+ restaurants in 15 days and physically collected 25000+ restaurants across the country. 
                                 </p>
                                 {/* <div class="row">
@@ -72,7 +64,7 @@ export default function ZomatoCaseStudy() {
                                                     <i class="flaticon-crop"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">10+ cities </h4>
+                                                    <h4 class="font-montserrat fw-600">10+ cities </h4>
                                                 </div>
                                             </div>
                                             <div class="simple-icon-box icon-left mb-30 wow fadeInUp">
@@ -80,7 +72,7 @@ export default function ZomatoCaseStudy() {
                                                     <i class="flaticon-crop"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">25,000+ restaurants</h4>
+                                                    <h4 class="font-montserrat fw-600">25,000+ restaurants</h4>
                                                 </div>
                                             </div>
                                             <div class="simple-icon-box icon-left mb-30 wow fadeInUp">
@@ -88,7 +80,7 @@ export default function ZomatoCaseStudy() {
                                                     <i class="flaticon-crop"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">15 days</h4>
+                                                    <h4 class="font-montserrat fw-600">15 days</h4>
                                                 </div>
                                             </div>
                                         </div>

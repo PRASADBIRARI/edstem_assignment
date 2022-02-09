@@ -2,16 +2,16 @@ import React from 'react'
 
 export default function Testimonial() {
     return (
-        <div class="client-feedback-slider-one pt-50 pb-170 md-pb-80">
+        <div class="client-feedback-slider-one pt-50 pb-100 md-pb-80">
             <div class="shapes-holder">
                 <img src="images/shape/39.svg" alt="" />
-                <img src="images/shape/42.svg" alt="" class="shapes shape-one" />
-                <img src="images/media/img_21.png" alt="" class="cp-img-one" />
-                <img src="images/media/img_22.png" alt="" class="cp-img-two" />
-                <img width="200" src="assets/logo web/bounce.png" alt="" class="cp-img-three" />
+                {/* <img src="images/media/img_21.png" alt="" class="cp-img-one" /> */}
+                <img src="assets/logo web/bounce.png" alt="" class="cp-img-one" />
+                <img src="assets/logo web/dunzo.png" alt="" class="cp-img-two" />
+                <img src="assets/logo web/zomato.png" alt=""class="cp-img-three" />
                 <img src="assets/logo web/byjus.png" alt="" class="cp-img-four" />
                 <div class="title-style-two">
-                    <h2>What’s <br />Our Client Say <br />About Us.</h2>
+                    <h2 class="font-montserrat fs-40 fw-600">What’s <br />Our Client Say <br />About Us.</h2>
                 </div>
             </div>
             <div class="container">
@@ -21,10 +21,10 @@ export default function Testimonial() {
                             <img src="images/icon/30.svg" alt="" class="icon" />
                             <div class="clientSliderOne">
                                 <div class="item">
-                                    <p class="font-rubik">“Taskmo (Formerly Known as FeedMyPockets) has supported us immensely by providing us with temporary gig workers who have helped us achieve all our targets and milestones within a short period of time.”</p>
+                                    <p class="font-montserrat">“Taskmo (Formerly Known as FeedMyPockets) has supported us immensely by providing us with temporary gig workers who have helped us achieve all our targets and milestones within a short period of time.”</p>
                                     <div class="d-lg-flex align-items-center">
                                         <img src="images/media/img_20.png" alt="" class="c_img" />
-                                        <div class="info">
+                                        <div class="info font-montserrat">
                                             <strong>Jnanesh</strong> <span>Program Manager, Amazon</span>
                                         </div>
                                     </div>

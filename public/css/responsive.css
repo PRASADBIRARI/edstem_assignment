@@ -18,7 +18,7 @@
   .container {padding-right: 0;padding-left: 0;}
 }
 @media (min-width: 1200px) and (max-width: 1450px) {
-  .theme-main-menu {padding: 30px 40px;}
+  .theme-main-menu {padding: 10px 10px;}
   .theme-menu-two .navbar {padding-right: 18%;}
   .theme-menu-two .navbar-nav .nav-item .nav-link {margin: 0 25px;}
   .fancy-feature-twelve {margin-top: 120px;}

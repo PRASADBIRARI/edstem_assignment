@@ -3,13 +3,13 @@ import React from 'react'
 export default function WorkingProgress() {
     return (
         <div>
-            <div class="fancy-feature-twentySeven lg-container mt-100 pt-20 md-mt-60" id="product">
+            <div class="font-montserrat lg-container mt-100 pt-20 md-mt-60" id="product">
                 <div class="container">
-                    <div class="title-style-twelve text-center mb-70 md-mb-20">
+                    <div class="text-center mb-70 md-mb-20">
                         <div class="row">
                             <div class="col-xl-10 col-lg-11 m-auto">
                                 <h2>
-                                    <span>Working Process <img src="images/shape/line-shape-13.svg" alt="" /></span>
+                                    <span class="font-montserrat fw-600 fs-50">Working Process</span>
                                 </h2>
                             </div>
                         </div>

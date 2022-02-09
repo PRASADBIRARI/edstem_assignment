@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Technology() {
     return (
-        <div style={{backgroundColor:"white"}} class="fancy-feature-eighteen" id="feature">
+        <div style={{backgroundColor:"white"}} class="font-montserrat fancy-feature-eighteen" id="feature">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9 m-auto">
-                        <div class="title-style-eight text-center" data-aos="fade-up" data-aos-duration="1200">
-                            <h2>Technology</h2>
+                        <div class="text-center" data-aos="fade-up" data-aos-duration="1200">
+                            <h2 class="font-montserrat fw-600 fs-50">Technology</h2>
                         </div>
                     </div>
                 </div>
@@ -50,9 +50,9 @@ export default function Technology() {
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="text-wrapper">
-                                <h4 style={{ color:'white' }}>KPI Analysis</h4>
-                                <p style={{ color:'white' }}>Our platform analyzes and drafts your goals, sets up your questions to measure them against the outcome you want to achieve.</p>
+                            <div class="text-wrapper ">
+                                <h4 class="font-montserrat cl-white">KPI Analysis</h4>
+                                <p style={{ color:'white',fontSize:"22px" }}>Our platform analyzes and drafts your goals, sets up your questions to measure them against the outcome you want to achieve.</p>
                             </div>
                         </div>
                     </div>
@@ -67,8 +67,8 @@ export default function Technology() {
                         </div>
                         <div class="col-md-6">
                             <div class="text-wrapper">
-                                <h4 style={{ color:'white' }}>AI based Training & Assesment</h4>
-                                <p style={{ color:'white' }}>All our taskers are trained and assessed through our highly interactive platform to help them perform tasks in a smooth and efficient manner.</p>
+                                <h4 class="font-montserrat cl-white">AI based Training & Assesment</h4>
+                                <p style={{ color:'white',fontSize:"22px" }}>All our taskers are trained and assessed through our highly interactive platform to help them perform tasks in a smooth and efficient manner.</p>
                             </div>
                         </div>
                     </div>
@@ -83,8 +83,8 @@ export default function Technology() {
                         </div>
                         <div class="col-md-6">
                             <div class="text-wrapper">
-                                <h4 style={{ color:'white' }}>Geo based Task Routing</h4>
-                                <p style={{ color:'white' }}>The taskers will be assigned to work on the specific locations using our high-end routing algorithm to ensure instant completion of tasks.</p>
+                                <h4 class="font-montserrat cl-white">Geo based Task Routing</h4>
+                                <p style={{ color:'white',fontSize:"22px" }}>The taskers will be assigned to work on the specific locations using our high-end routing algorithm to ensure instant completion of tasks.</p>
                             </div>
                         </div>
                     </div>
@@ -99,8 +99,8 @@ export default function Technology() {
                         </div>
                         <div class="col-md-6">
                             <div class="text-wrapper">
-                                <h4 style={{ color:'white' }}>Daily Insights</h4>
-                                <p style={{ color:'white' }}>Our new-age dashboard enables you to identify problem areas, take instant action and boost efficiency of the taskforce, in real-time.</p>
+                                <h4 class="font-montserrat cl-white">Daily Insights</h4>
+                                <p style={{ color:'white',fontSize:"22px" }}>Our new-age dashboard enables you to identify problem areas, take instant action and boost efficiency of the taskforce, in real-time.</p>
                             </div>
                         </div>
                     </div>

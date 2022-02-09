@@ -1,4 +1,3 @@
-import { textAlign } from '@mui/system'
 import React from 'react'
 import { useEffect } from 'react'
 
@@ -18,33 +17,33 @@ export default function RapidoCaseStudy() {
                     <div class="row">
                         <div class="col-12 order-first">
                             <div class="portfolio-thumb">
-                                <img src="assets/img/portfolio/portfolio-details.jpg" alt="Image" />
+                            <img src="assets/case-study/rapido.png" alt="Image" />
                             </div>
                         </div>
                         <div class="col-lg-4 order-lg-last">
                             <div class="portfolio-info-box wow fadeInUp">
-                                <h4 class="box-title">Project Info</h4>
+                                <h4 class="font-montserrat fw-700">Project Info</h4>
                                 <ul>
                                     <li>
-                                        <span class="info-title">Clients</span>
-                                        <span class="info">Rapido</span>
+                                        <span class="font-montserrat fw-600">Clients</span>
+                                        <span class="font-montserrat fw-500">Rapido</span>
                                     </li>
                                     <li>
-                                        <span class="info-title">Project Category</span>
-                                        <span class="info">Partner Onboarding</span>
+                                        <span class="font-montserrat fw-600">Project Category</span>
+                                        <span class="font-montserrat fw-500">Partner Onboarding</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-8">
                             <div class="portfolio-details-content wow fadeInUp">
-                                <h2 class="portfolio-title">Rapido - Partner Onboarding </h2>
-                                <h3 class="sub-title">Challenge</h3>
-                                <p class="mb-30">
+                                <h2 class="font-montserrat fs-50 fw-600">Rapido - Partner Onboarding </h2>
+                                <h3 class="font-montserrat fw-600 mt-50">Challenge</h3>
+                                <p class="mb-30 fs-18">
                                 Rapido, a ride-sharing company, wanted to acquire auto drivers to partner with and offer service under Rapido. They found it difficult to reach out to auto drivers and onboard them to Rapido.  
                                 </p>
-                                <h3 class="sub-title">Solution</h3>
-                                <p class="mb-30">
+                                <h3 class="font-montserrat fw-600 sub-title">Solution</h3>
+                                <p class="mb-30 fs-18">
                                 Taskmo's digitally trained taskers visited auto drivers and educated them about the benefits of the platform. They educate the application and get rides easily and instantly.  
                                 </p>
                                 {/* <div class="row">
@@ -64,7 +63,7 @@ export default function RapidoCaseStudy() {
                                                     <i class="flaticon-crop"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">20,000+ rides </h4>
+                                                    <h4 class="font-montserrat fw-600">20,000+ rides </h4>
                                                 </div>
                                             </div>
                                             <div class="simple-icon-box icon-left mb-30 wow fadeInUp">
@@ -72,7 +71,7 @@ export default function RapidoCaseStudy() {
                                                     <i class="flaticon-crop"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">10+ cities</h4>
+                                                    <h4 class="font-montserrat fw-600">10+ cities</h4>
                                                 </div>
                                             </div>
                                             <div class="simple-icon-box icon-left mb-30 wow fadeInUp">
@@ -80,7 +79,7 @@ export default function RapidoCaseStudy() {
                                                     <i class="flaticon-crop"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title">500+ Taskers</h4>
+                                                    <h4 class="font-montserrat fw-600">500+ Taskers</h4>
                                                 </div>
                                             </div>
                                         </div>

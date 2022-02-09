@@ -5,13 +5,13 @@ export default function GrowWithUs() {
         <div class="leftAlign">
             {/* <!--====== Feature Section Start ======--> */}
             <section class="pt-60 pb-60">
-                <div class="container">
+                <div class="container font-montserrat">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-lg-6 col-md-10">
                             <div class="feature-text-block content-r-spacing">
                                 <div class="section-heading mb-50">
-                                    <h2 class="title">Expand Your Business With India’s Leading Gig Marketplace </h2>
-                                    <span >Taskmo, headquartered in Bengaluru, Karnataka has expanded its wings across Telangana, Andhra Pradesh Kerala, Chennai, Gujarat, Rajasthan, Maharashtra, Madhya Pradesh, Kolkata, Delhi and expanding its wings across the country with a core value to empower gig workers and revolutionize the gig economy globally.</span>
+                                    <h2 style={{lineHeight:"1.1em"}} class="font-montserrat fw-600 fs-50">Expand Your Business With India’s Leading Gig Marketplace </h2>
+                                    <span class="pt-30 fs-18">Taskmo, headquartered in Bengaluru, Karnataka has expanded its wings across Telangana, Andhra Pradesh Kerala, Chennai, Gujarat, Rajasthan, Maharashtra, Madhya Pradesh, Kolkata, Delhi and expanding its wings across the country with a core value to empower gig workers and revolutionize the gig economy globally.</span>
                                 </div>
                                 
                                 {/* <div class="feature-lists">
@@ -34,7 +34,7 @@ export default function GrowWithUs() {
                                         </div>
                                     </div>
                                 </div> */}
-                                <a href="#" class="template-btn mt-10">Grow with us<i class="far fa-long-arrow-right"></i></a>
+                                <a href="#" class="template-btn ">Grow with us<i class="flaticon-right-arrow"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-9">

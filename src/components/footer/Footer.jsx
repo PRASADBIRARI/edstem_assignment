@@ -29,58 +29,23 @@ export default function Footer() {
         window.location.replace("/#section5");
     }
 
- 
+
 
 
     return (
-        <footer class="theme-footer-two pt-150 md-pt-80">
-            <div class="top-footer">
+        <footer  class="theme-footer-two pt-100 md-pt-80">
+            <div class="top-footer pb-40">
                 <div class="container">
                     <div class="row justify-content-between">
-                        <div class="col-lg-2 col-12 footer-about-widget" data-aos="fade-up" data-aos-duration="1200">
+                        
+                        <div class="font-montserrat fw-500 col-lg-3 col-md-3 col-sm-6 address-list">
                             <a href="index-customer-support.html" class="logo">
-                                {/* <img src="images/logo/deski_03.svg" alt="" /> */}
-                                <img style={{ width: "5.5em" }} src="assets/img/logo.png" alt="taskmo-logo" />
-
+                                <img style={{ width: "8em" }} src="assets/img/logo.png" alt="taskmo-logo" />
                             </a>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 footer-list" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50">
-                            <h5 class="footer-title">Products</h5>
-                            <ul>
-                                <li><a href="#">Take the tour</a></li>
-                                <li><a href="#">Live chat</a></li>
-                                <li><a href="#">Self-service</a></li>
-                                <li><a href="#">Social</a></li>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Collaboration</a></li>
-                                <li><a href="#">deski Reviews</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 footer-list" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
-                            <h5 class="footer-title">Services</h5>
-                            <ul>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Development</a></li>
-                                <li><a href="#">Wordpress</a></li>
-                                <li><a href="#">Online Marketing</a></li>
-                                <li><a href="#">Content</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 footer-list" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150">
-                            <h5 class="footer-title">About us</h5>
-                            <ul>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Work Portfolio</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Plan & Pricing</a></li>
-                                <li><a href="#">News</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 address-list" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-                            <h5 class="footer-title">Address</h5>
                             <ul class="info">
-                                <li><a href="#">companyinfo@mail.com</a></li>
-                                <li><a href="#" class="mobile-num">+761 412 3224</a></li>
+                                <li><a>#33, Mohan chambers, 1st Main Rd, 3rd Phase, J. P. Nagar, Bengaluru, Karnataka 560078</a></li>
+                                <li><a href="#">business@taskmo.com</a></li>
+                                <li><a href="#" class="mobile-num">+91 8448449069</a></li>
                             </ul>
                             <ul class="social-icon d-flex">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -88,14 +53,50 @@ export default function Footer() {
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
+                        <div  class="font-montserrat fw-500 col-lg-3 col-md-3 col-sm-6 footer-list" >
+                            <h5 class="footer-title font-montserrat fw-600 ">Services</h5>
+                            <ul>
+                                <li><a href="merchant-onboarding">Merchant Onboarding</a></li>
+                                <li><a href="background-verification">Background Verification</a></li>
+                                <li><a href="tele-sales">Tele Sales</a></li>
+                                <li><a href="last-mile-delivery">Last Mile Delivery</a></li>
+                                <li><a href="customer-acquisition">Customer Acquisition</a></li>
+                                <li><a href="stock-audits">Stock Audits</a></li>
+                                <li><a href="geo-tagging">Geo Tagging</a></li>
+                            </ul>
+                        </div>
+                        <div  class="font-montserrat fw-500 col-lg-3 col-md-3 col-sm-6 footer-list" >
+                            <h5 class="footer-title font-montserrat fw-600">&nbsp;</h5>
+                            <ul>
+                                <li><a href="picking-packing">Picking And Packing</a></li>
+                                <li><a href="survey-collection">Survey Collection</a></li>
+                                <li><a href="product-sampling">Product Sampling</a></li>
+                                <li><a href="influencer-marketing">Influencer Marketing</a></li>
+                                <li><a href="customer-support">Customer Support</a></li>
+                                <li><a href="warehouse-service">Warehouse Service</a></li>
+                                {/* <li><a href="content-moderation">Content Moderation</a></li> */}
+                                {/* <li><a href="phlebotomy-services">Phlebotomy Services</a></li> */}
+                            </ul>
+                        </div>
+                        <div  class="font-montserrat fw-500 col-lg-2 col-md-3 col-sm-6 footer-list" >
+                            <h5 class="footer-title font-montserrat fw-600">Quick links</h5>
+                            <ul>
+                                <li><a href="about">About us</a></li>
+                                <li><a href="services">Service</a></li>
+                                <li><a href="blog">Blogs</a></li>
+                                <li><a href="contact">Contact</a></li>
+                                <li><a href="privacy-policy">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+    
                     </div>
                 </div>
             </div>
 
             <div class="container">
                 <div class="bottom-footer-content">
-                    <div class="d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1200" data-aos-anchor=".theme-footer-two">
-                        <p>Copyright @2021 Stellarslog Technovation Pvt Ltd. All Right Reserve</p>
+                    <div class="d-flex align-items-center justify-content-center" >
+                        <p class="font-montserrat fw-500 ">Copyright @2021 Stellarslog Technovation Pvt Ltd. All Rights Reserve</p>
                     </div>
                 </div>
             </div>

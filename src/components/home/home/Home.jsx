@@ -28,23 +28,17 @@ export default function Home() {
       {/* <Counter/> */}
       <Services />
       <WorkingProgress />
-
-
-
-      {/* <Feature /> */}
-
-
-
+      <Feature />
       <Technology />  
 
-      {/* <TaskmoApp /> */}
+      <TaskmoApp />
       
       <PopularCaseStudy />
       <Testimonial />
 
 
 
-      {/* <Media /> */}
+      <Media />
 
 
 
