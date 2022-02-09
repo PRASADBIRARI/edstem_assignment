@@ -14,7 +14,10 @@ export default function Blog() {
     }, [])
 
 
+
+
     
+
     return (
         <div>
             {/* <section class="blog-area section-gap">
